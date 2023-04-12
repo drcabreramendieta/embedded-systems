@@ -1,4 +1,22 @@
 # Compilación del sistema de archivos raíz
+Verificación de gcc:
+```
+$ gcc --version
+```
+Si el comando no se encuentra, entonces crear un link simbólico con
+```
+$ sudo ln -s /usr/bin/gcc-9 /usr/bin/gcc
+```
+
+Verificación de g++:
+```
+$ g++ --version
+```
+Si el comando no se encuentra, entonces crear un link simbólico con
+```
+$ sudo ln -s /usr/bin/g++-9 /usr/bin/g++
+```
+
 Descarga de buildroot:
 ```
 $ cd sistemas_embebidos/
